@@ -9,6 +9,7 @@ public class Roll {
 	public Roll() {
 		// TODO: Create an instance of d1 and d2...
 		// TODO: Determine 'Score'
+		this.Score = d1.getScore() + d2.getScore();
 	}
 
 	public int getScore() {
